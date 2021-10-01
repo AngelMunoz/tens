@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "fable": {
+      "version": "3.3.1",
+      "commands": [
+        "fable"
+      ]
+    },
+    "perla": {
+      "version": "0.10.1",
+      "commands": [
+        "perla"
+      ]
+    }
+  }
+}

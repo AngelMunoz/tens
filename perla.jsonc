@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AngelMunoz/Perla/main/perla.schema.json",
+  "index": "./index.html",
+  "fable": {
+    "project": "./src/App.fsproj"
+  },
+  "devServer": {
+    "autoStart": true,
+    "liveReload": true,
+    "mountDirectories": {
+      "./src": "/src"
+    }
+  },
+  "build": {
+    "esbuildVersion": "0.13.2",
+    "target": "es2017"
+  },
+  "packages": {
+    "react": "https://cdn.skypack.dev/pin/react@v17.0.1-yH0aYV1FOvoIPeKBbHxg/mode=imports/optimized/react.js",
+    "react-dom": "https://cdn.skypack.dev/pin/react-dom@v17.0.1-oZ1BXZ5opQ1DbTh7nu9r/mode=imports/optimized/react-dom.js"
+  }
+}
